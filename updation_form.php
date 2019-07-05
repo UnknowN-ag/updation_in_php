@@ -2,7 +2,7 @@
 	
 	$id = $_REQUEST['id'];
 
-	$conn = mysqli_connect('localhost','root','','training');
+	$conn = mysqli_connect('localhost','root','','your_database_name');
 
 	$sql = " SELECT * FROM `student` where id='$id'";
 	$runn = mysqli_query($conn, $sql);
