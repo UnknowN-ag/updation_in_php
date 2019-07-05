@@ -36,7 +36,7 @@
 
 		    <?php 
 
-		    	$conn = mysqli_connect('localhost','root','','training');
+		    	$conn = mysqli_connect('localhost','root','','your_database_name');
 
 		    	$result = "SELECT * FROM `student`";
 
